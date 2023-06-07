@@ -8,8 +8,8 @@
  Notes:
    import random words from CSV using getWords.js
 */
-const textfromCSV = getWordsFromFile();
-const random_words = textfromCSV;
+let textfromCSV = getWordsFromFile();
+let random_words = textfromCSV;
 
 // outer variables 
 let answer = '';             // holds the value of the random word to be served to the .html 
